@@ -151,6 +151,7 @@ th {
     padding: 1px;
     border: var(--bdr);
     border-radius: 50%;
+    display: none;
 }
 
 #check {
