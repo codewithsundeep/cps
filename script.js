@@ -72,7 +72,7 @@ class cityInfo {
                     <tbody>
                     <tr>
                     <td>${cur1.year}</td>
-                    <td>${cur1.value}</td>
+                    <td>${~~cur1.value}</td>
                     <td>${cur1.sex}</td>
                     <td>${cur1.reliabilty}</td>
                     </tr>
@@ -177,7 +177,7 @@ let timerforAllData = setInterval(() => {
                     <tbody>
                     <tr>
                     <td>${cur1.year}</td>
-                    <td>${cur1.value}</td>
+                    <td>${~~cur1.value}</td>
                     <td>${cur1.sex}</td>
                     <td>${cur1.reliabilty}</td>
                     </tr>
