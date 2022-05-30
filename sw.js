@@ -35,7 +35,6 @@ self.addEventListener('fetch', (e) => {
                 const cache = await caches.open("cps");
                 await cache.put(e.request, response.clone())
                 return response;
-
             }
         )()
     )

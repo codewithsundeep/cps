@@ -5,4 +5,3 @@ if ("serviceWorker" in navigator) {
         console.log("service worker registration failed", err);
     })
 }
-// 7319135986 amrit driver

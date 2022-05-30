@@ -144,3 +144,30 @@ th {
 ::-webkit-scrollbar {
     display: none;
 }
+
+.mobile-search-btn {
+    /* font-size: large; */
+    cursor: pointer;
+    padding: 1px;
+    border: var(--bdr);
+    border-radius: 50%;
+}
+
+#check {
+    display: none;
+}
+
+@media (max-width:600px) {
+    .mobile-search-btn {
+        display: block;
+    }
+    .search {
+        display: none;
+    }
+    #check:checked~.search {
+        display: block;
+    }
+    #check:checked~h3 {
+        display: none;
+    }
+}

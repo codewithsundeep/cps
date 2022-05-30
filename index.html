@@ -17,13 +17,16 @@
 
 <body>
     <div class="top-with-nav">
+        <input type="checkbox" id="check">
         <h3 onclick="location.reload()">Cities Population Search</h3>
         <form class="search">
             <input type="search" id="search" title="Search City or Country" placeholder='Type a city name...'>
             <input type="submit" value="Search" class="submit">
         </form>
-    </div>
+        <label for="check" class="mobile-search-btn">&#128269;</label>
 
+
+    </div>
     <div class="population-table"></div>
     <script src="./script.js"></script>
     <script src="./pwa.js"></script>
