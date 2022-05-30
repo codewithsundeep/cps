@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities Info</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="apple-touch-icon" href="./favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="./favicon/android-chrome-192x192.png">
+    <link rel="apple-touch-icon" href="./favicon/android-chrome-512x512.png">
+    <link rel="apple-touch-icon" href="./favicon/favicon-32x32.png">
+    <link rel="apple-touch-icon" href="./favicon/favicon-16x16.png">
+</head>
+
+<body>
+    <div class="top-with-nav">
+        <h3 onclick="location.reload()">Cities Population Search</h3>
+        <form class="search">
+            <input type="search" id="search" title="Search City or Country" placeholder='Type a city name...'>
+            <input type="submit" value="Search" class="submit">
+        </form>
+    </div>
+
+    <div class="population-table"></div>
+    <script src="./script.js"></script>
+    <script src="./pwa.js"></script>
+    <noscript>You have to enable JavaScript to use this App</noscript>
+</body>
+
+</html>
